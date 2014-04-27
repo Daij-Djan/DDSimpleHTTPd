@@ -41,7 +41,6 @@
 		B3511EAA175010C60006BA82 /* liblibDDSimpleHTTPd_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3743380174FCD37004D0FC5 /* liblibDDSimpleHTTPd_ios.a */; };
 		B3511EAC175010D50006BA82 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3511EAB175010D50006BA82 /* CFNetwork.framework */; };
 		B3743322174FBD45004D0FC5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3743321174FBD45004D0FC5 /* CFNetwork.framework */; };
-		B3743336174FBFE2004D0FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3743335174FBFE2004D0FC5 /* main.m */; };
 		B374333D174FBFE2004D0FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B374333C174FBFE2004D0FC5 /* AppDelegate.m */; };
 		B3743340174FBFE2004D0FC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B374333E174FBFE2004D0FC5 /* MainMenu.xib */; };
 		B3743345174FC006004D0FC5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3743344174FC006004D0FC5 /* Cocoa.framework */; };
@@ -119,19 +118,18 @@
 		B3511EAB175010D50006BA82 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		B3743306174FB597004D0FC5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3743321174FBD45004D0FC5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = /System/Library/Frameworks/CFNetwork.framework; sourceTree = "<absolute>"; };
-		B3743327174FBFE2004D0FC5 /* DemoWebserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoWebserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3743327174FBFE2004D0FC5 /* DemoWebserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = DemoWebserver.app; path = DDSimpleHTTPd_CocoaDemoWebserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3743329174FBFE2004D0FC5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B374332C174FBFE2004D0FC5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B374332D174FBFE2004D0FC5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B374332E174FBFE2004D0FC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3743331174FBFE2004D0FC5 /* DemoWebserver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoWebserver-Info.plist"; sourceTree = "<group>"; };
-		B3743335174FBFE2004D0FC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B374333B174FBFE2004D0FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B374333C174FBFE2004D0FC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B374333F174FBFE2004D0FC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B3743344174FC006004D0FC5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		B374334E174FCBFE004D0FC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B374335E174FCC3F004D0FC5 /* cliTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cliTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		B374335E174FCC3F004D0FC5 /* cliTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = cliTool; path = DDSimpleHTTPd_cliTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3743361174FCC3F004D0FC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3743380174FCD37004D0FC5 /* liblibDDSimpleHTTPd_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibDDSimpleHTTPd_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B374339C174FCE60004D0FC5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
@@ -204,13 +202,13 @@
 			isa = PBXGroup;
 			children = (
 				B3511E5D17500CEB0006BA82 /* DDSimpleHTTPd */,
-				B3743305174FB597004D0FC5 /* Framework */,
 				B3743360174FCC3F004D0FC5 /* cliTool */,
 				B374332F174FBFE2004D0FC5 /* DemoWebserver */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				B3511E8817500EDA0006BA82 /* DDSimpleHTTPd_iosDemo */,
 				B3743328174FBFE2004D0FC5 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				B3743305174FB597004D0FC5 /* Framework */,
 			);
 			name = SimpleHTTPd;
 			sourceTree = "<group>";
@@ -304,7 +302,6 @@
 			isa = PBXGroup;
 			children = (
 				B3743331174FBFE2004D0FC5 /* DemoWebserver-Info.plist */,
-				B3743335174FBFE2004D0FC5 /* main.m */,
 				B374333B174FBFE2004D0FC5 /* AppDelegate.h */,
 				B374333C174FBFE2004D0FC5 /* AppDelegate.m */,
 				B374333E174FBFE2004D0FC5 /* MainMenu.xib */,
@@ -513,7 +510,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3743336174FBFE2004D0FC5 /* main.m in Sources */,
 				B374333D174FBFE2004D0FC5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -887,6 +883,7 @@
 				B3511EA517500EDA0006BA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3743341174FBFE2004D0FC5 /* Build configuration list for PBXNativeTarget "DDSimpleHTTPd_CocoaDemoWebserver" */ = {
 			isa = XCConfigurationList;
